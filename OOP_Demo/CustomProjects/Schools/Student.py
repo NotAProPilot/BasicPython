@@ -35,6 +35,8 @@ class Student:
             self: The Student instance.
             other: The Student instance to potentially become friends with.
         """
+        
+        # Adding common hobbies
         common_hobbies = [hobby for hobby in self.hobbies if hobby.lower() in other.hobbies]
         if common_hobbies:
             self.friends.append(other)
