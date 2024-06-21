@@ -67,7 +67,6 @@ def calculate_driver_cost(distance, *drivers):
             cheapest_driver_price = price_for_driver
         
     return cheapest_driver_price, cheapest_driver
-
 # Test the calculate_driver_cost function
 test_function(calculate_driver_cost)
 
